@@ -3,10 +3,10 @@ $(document).ready(function() {
 		$("p").css({"color":"red", "background-color": "yellow"});
 		$("img").css("border","25px solid black");
 	});
-	$("#imagetoggler").click(function(){
+	$("#imgtoggler").click(function(){
 		$("img").toggle();
 	});
-	$("#ptoggler").click(function(){
-		$("p2").toggle();
+	$("#p1").click(function(){
+		$("ptoggler").toggle();
 	});
 });
