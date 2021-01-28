@@ -6,4 +6,7 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
+	$("#ptoggler").click(function(){
+		$("p2").toggle();
+	});
 });
