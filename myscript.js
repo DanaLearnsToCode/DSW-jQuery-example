@@ -6,8 +6,8 @@ $(document).ready(function() {
 	$("#imagetoggler").click(function(){
 		$("img").toggle();
 	});
-	$("#p1").click(function(){
-		$("ptoggler").toggle();
+	$("#ptoggler").click(function(){
+		$("#p's").toggle();
 	});
 	$("#flip").click(function(){
                   $("#panel").slideDown("slow");
