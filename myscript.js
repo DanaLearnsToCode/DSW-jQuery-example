@@ -10,6 +10,8 @@ $(document).ready(function() {
 		$(".dissapear").toggle();
 	});
 	$("#flip").click(function(){
+		console.log(“clicked”);
                   $("#panel").slideDown("slow");
+		
 	});
 });
