@@ -7,7 +7,7 @@ $(document).ready(function() {
 		$("img").toggle();
 	});
 	$("#ptoggler").click(function(){
-		$("#dissapear").toggle();
+		$(".dissapear").toggle();
 	});
 	$("#flip").click(function(){
                   $("#panel").slideDown("slow");
