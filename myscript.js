@@ -9,4 +9,7 @@ $(document).ready(function() {
 	$("#p1").click(function(){
 		$("ptoggler").toggle();
 	});
+	$("#flip").click(function(){
+                  $("#panel").slideDown("slow");
+	});
 });
